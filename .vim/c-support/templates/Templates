@@ -1,0 +1,44 @@
+§ ==========================================================
+§  User Macros
+§ ==========================================================
+
+SetMacro( 'AUTHOR',      'duoxiong' )
+SetMacro( 'AUTHORREF',   '' )
+SetMacro( 'COMPOLER',    'gcc' )
+SetMacro( 'COMPANY',     'xiyou' )
+SetMacro( 'COPYRIGHT',   'Copyright (c) |2013|, |duoxiong|' )
+SetMacro( 'EMAIL',       'wangduoxiong1994@gmail.com' )
+SetMacro( 'LICENSE',     'GNU General Public License' )
+SetMacro( 'ORGANIZATION','none' )
+
+SetStyle( 'C' )
+
+§ ==========================================================
+§  File Includes and Shortcuts
+§ ==========================================================
+
+MenuShortcut( 'Comments',     'c' )
+MenuShortcut( 'Statements',   's' )
+MenuShortcut( 'Idioms',       'i' )
+MenuShortcut( 'Preprocessor', 'p' )
+MenuShortcut( 'Snippets',     'n' )
+MenuShortcut( 'C++',          'c' )
+§
+IncludeFile( 'snippets.template'     )
+§
+== USE STYLES : C ==
+IncludeFile( 'c.comments.template'     )
+IncludeFile( 'c.cpp.template'          )
+IncludeFile( 'c.idioms.template'       )
+IncludeFile( 'c.preprocessor.template' )
+IncludeFile( 'c.statements.template'   )
+== ENDSTYLES ==
+§
+== USE STYLES : CPP ==
+IncludeFile( 'cpp.comments.template'     )
+IncludeFile( 'cpp.cpp.template'          )
+IncludeFile( 'cpp.idioms.template'       )
+IncludeFile( 'cpp.preprocessor.template' )
+IncludeFile( 'cpp.statements.template'   )
+== ENDSTYLES ==
+

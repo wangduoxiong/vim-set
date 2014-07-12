@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/etc/grub.d'
+let g:netrw_dirhist_2='/home/duo/Desktop/tree code'
+let g:netrw_dirhist_3='/home/duo/c_file/gtk'
+let g:netrw_dirhist_4='/etc/kernel/header_postinst.d'
+let g:netrw_dirhist_5='/home/duoxiong/ichat/share/ichat'
